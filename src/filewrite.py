@@ -20,5 +20,4 @@ if response.status_code == 200:
     print(f"ZIP file saved at {zip_path}")
 
     # Step 2: Extract the ZIP file
-    with zipfile.ZipFile(zip_path) as zip_file:
-        zip_file.extractall(extract_path)   
+    with zipfile.ZipFile(zip_
